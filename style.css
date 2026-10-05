@@ -286,6 +286,10 @@ a{
     perspective: 1000px;
     anchor-name: --carousel;
 }
+.certification {
+        position: relative;
+        z-index: 2;
+}
 .certification .carousel::-webkit-scrollbar {
   display: none;
 }
@@ -331,6 +335,7 @@ a{
     aspect-ratio: 4/3;
     width: 100%;
     border-radius: 20px;
+    z-index: 5;
 }
 .certification .carousel::scroll-marker-group {
     display: flex;
