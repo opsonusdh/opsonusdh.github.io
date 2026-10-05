@@ -12,6 +12,7 @@ html, body {
 }
 
 body {
+    display: flow-root;
     position: relative;
 }
 .star-bg {
