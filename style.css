@@ -45,6 +45,10 @@ body {
     z-index: 1;
 }
 
+p, dl, dd, dt, a, h2 {
+    z-index: 2;
+}
+
 @keyframes twinkle {
     0% { opacity: 1;}
     100% { opacity: 0;}
